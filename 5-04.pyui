@@ -1,0 +1,142 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{29, 6}, {245, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "instruction_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "C6C8855B-3B9D-4613-AE4E-148CEC6C7055",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter a number from 0-100",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{53, 64}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "integer 0-100",
+          "name" : "list_textfield",
+          "frame" : "{{180, 181}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "33DF2DF4-C46F-42BC-A961-226670910BEC",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{323, 64}, {108, 57}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "enter",
+          "frame" : "{{240, 181}, {80, 32}}",
+          "title" : "Enter",
+          "uuid" : "BF94FB5A-0A72-474B-BEC9-9C27D82F48CE",
+          "class" : "Button",
+          "name" : "enter_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{64, 163}, {219, 84}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "list_label",
+          "frame" : "{{205, 181}, {150, 32}}",
+          "uuid" : "DD91B46D-15B8-4263-9338-8E3EE13C11AC",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{64, 263}, {219, 53}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{205, 181}, {150, 32}}",
+          "uuid" : "2F52CD0E-7B68-48CD-9EE7-2999FFCB18D7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{331, 259}, {108, 57}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_button",
+          "frame" : "{{240, 181}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "77C2BC85-3DBE-4ED3-9079-10374D1950E2",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{307, 163}, {150, 84}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "wrong_label",
+          "frame" : "{{205, 181}, {150, 32}}",
+          "uuid" : "78211C67-1587-4574-B326-478E4789349A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {559, 393}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
